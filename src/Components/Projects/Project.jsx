@@ -5,9 +5,9 @@ const Project = () => {
     const projectsData = [
         {
             title: "To-Do List",
-            desc: "Using To-Do List you can arrage list of tasks to do and also easy to remember in case if you forget any task you can see the tasks in the to-do application",
+            desc: "A To-Do List application that allows users to add daily tasks, mark tasks as completed using a checkbox, and delete tasks when they are no longer needed. This app helps users organize their work and manage tasks efficiently.",
             skills: ["Java", "Spring Boot", "MySQL", "React"],
-            github: "https://github.com/yeddulavamshi/To-Do-List-project"
+            github: "https://github.com/yeddulavamshi/todo-list-app"
         },
 
         {
