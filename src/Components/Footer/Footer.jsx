@@ -22,7 +22,7 @@ const Footer = () => {
                 </a> */}
             </div>
             <div>
-                <h3 className='text-center text-secondary fs-6'>© 2026 Vamshi Yeddula</h3>
+                <h3 className='text-center text-secondary fs-6'>&copy; 2026 Vamshi Yeddula</h3>
             </div>
         </div>
     )
