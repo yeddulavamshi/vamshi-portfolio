@@ -18,17 +18,10 @@ const Project = () => {
         },
 
         {
-            title: "First SpringBoot Application",
-            desc: "This is my first springboot application, Here i can how to run a springboot project.",
-            skills: ["Java", "Spring Boot", "MySQL", "Postman"],
-            github: "https://github.com/yeddulavamshi/first-springboot-app"
-        },
-
-        {
             title: "Employee Management System",
-            desc: "Using To-Do List you can arrage list of tasks to do and also easy to remember in case if you forget any task you can see the tasks in the to-do application",
-            skills: ["Java", "Spring Boot", "MySQL", "React", "Postman", "JavaScript", "html", "css"],
-            github: "https://github.com/yeddulavamshi"
+            desc: "A Full-Stack Employee Management System built with Spring Boot, React, and MySQL.",
+            skills: ["Java", "Spring Boot", "MySQL", "React", "Bootstrap", "JavaScript", "HTML5", "CSS3"],
+            github: "https://github.com/yeddulavamshi/employee-management-system"
         },
     ];
 
