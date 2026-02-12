@@ -3,26 +3,35 @@ import './Project.css'
 const Project = () => {
 
     const projectsData = [
+
+        {
+            title: "Ai-Reader",
+            desc: "A Full-Stack AI Document Analysis Application built with Spring Boot, React, and Google Gemini API.",
+            skills: ["Java", "Spring Boot", "React.js", "Google Gemini AI", "REST API", "JavaScript", "Vite", "CSS3"],
+            github: "https://github.com/yeddulavamshi/ai-reader"
+        },
+
+        {
+            title: "Employee Management System",
+            desc: "A Full-Stack Employee Management System built with Spring Boot, React, and MySQL.",
+            skills: ["Java", "Spring Boot", "MySQL", "React", "Bootstrap", "JavaScript", "CSS3"],
+            github: "https://github.com/yeddulavamshi/employee-management-system"
+        },
+
+        {
+            title: "Weather App",
+            desc: "Weather App built with React that displays real-time weather details like temperature, location, date & time, weather conditions, humidity, wind speed, and pressure using a weather API.",
+            skills: ["React", "JavaScript", "Bootstrap", "CSS3"],
+            github: "https://github.com/yeddulavamshi/weather-app"
+        },
+
         {
             title: "To-Do List",
             desc: "A To-Do List application that allows users to add daily tasks, mark tasks as completed using a checkbox, and delete tasks when they are no longer needed. This app helps users organize their work and manage tasks efficiently.",
             skills: ["HTML5", "CSS3", "JavaScript"],
             github: "https://github.com/yeddulavamshi/todo-list-app"
         },
-
-        {
-            title: "Weather App",
-            desc: "Weather App built with React that displays real-time weather details like temperature, location, date & time, weather conditions, humidity, wind speed, and pressure using a weather API.",
-            skills: ["React", "JavaScript", "Bootstrap", "HTML5", "CSS3"],
-            github: "https://github.com/yeddulavamshi/weather-app"
-        },
-
-        {
-            title: "Employee Management System",
-            desc: "A Full-Stack Employee Management System built with Spring Boot, React, and MySQL.",
-            skills: ["Java", "Spring Boot", "MySQL", "React", "Bootstrap", "JavaScript", "HTML5", "CSS3"],
-            github: "https://github.com/yeddulavamshi/employee-management-system"
-        },
+        
     ];
 
     const MAX_VISIBLE_SKILLS = 3;
